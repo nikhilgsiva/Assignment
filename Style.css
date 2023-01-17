@@ -1,0 +1,108 @@
+
+.navigation {
+    float: right;
+    margin-top: 7px;
+    margin-right: 4px;
+    margin-bottom: 30px;
+}
+
+
+.navigation > a {
+   color: aliceblue;
+   padding: 5px;
+   font-size: small;
+   margin: 100 px; 
+   border: 1px solid rgb(120, 90, 190);
+   border-radius: 900px;
+   transform: 5s;
+   }
+
+.navigation > a:hover {
+background-color: gray;
+color: aliceblue;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+background-image: url(/wp3266873.jpg); 
+background-size: cover;
+background-repeat: no-repeat;
+object-fit: contain;
+overflow:hidden;
+}
+
+#img {
+width: 30px;
+height: 30px;
+background-color: black ;
+margin: 5px 0px 5px 1%;
+}
+
+.header{
+float: right;
+font-size: small;
+text-decoration: none;
+}
+
+h1 {
+    margin-left: 2%;
+    margin-top: 5px;
+    color: white;
+    font-size: x-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+h4 {
+    margin-left: 2%;
+    margin-top: 5%;
+    color: white;
+    font-size: x-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+h2 {
+
+margin-top: 3%;
+margin-left: 2%;
+color: white;
+font-size: medium;
+}
+h3 {
+    color: aliceblue;
+    font-size: small; 
+}
+
+/* so that its responsive in all pages */
+
+* {
+padding:0%;
+margin: 0%;
+
+}
+
+.navigation > Assignment1 {
+padding: 5%;
+    color: aqua;
+}
+
+p {
+    margin-left: 2%;
+    margin-right: 50%;
+    margin-top: 3% ;
+    font-size: smaller;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+
+
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    padding: 5px;
+    font-size: small;
+}
